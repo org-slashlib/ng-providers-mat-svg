@@ -51,7 +51,7 @@ export class LocalSVGProvider implements SVGProvider {
                           iconname, this.sanitizer.bypassSecurityTrustHtml( ICONS[ i ][ j ])
                         );
                      }
-                     catch( e ) { console.err( e ); } // this will happen, if there is no attribute "id" (icon name)
+                     catch( e ) { console.error( e ); } // this will happen, if there is no attribute "id" (icon name)
               }
         }
         resolve( true );
