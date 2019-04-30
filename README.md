@@ -15,15 +15,18 @@ This projects SVG graphics are provided by:
 * Change to build directory: <code> cd build </code>
 * Call <code> ng build </code>
 * Change to dist directory: <code> npm pack </code>
-* <code> npm install path/to/@org.slashlib-ng-providers-mat-svg-<version>.tgz</code>
+* <code> npm install path/to/@org.slashlib-ng-providers-mat-svg-&lt;version&gt;.tgz</code>
 
 ## installing ##
 
 This guide assumes, that you are familiar with the use of npm.  
 
-Download <code>org.slashlib-ng-services-svg-&lt;version&gt;.tgz</code> or
+Download <code>org.slashlib-ng-providers-mat-svg-&lt;version&gt;.tgz</code><br />
+and install <code> npm install path/to/org.slashlib-ng-providers-mat-svg-&lt;version&gt;.tgz</code>
 
-<code>npm install @org.slashlib/ng-services-svg --save-dev</code>
+or
+
+<code>npm install @org.slashlib/ng-providers-mat-svg --save-dev</code>
 
 ## usage ##
 
